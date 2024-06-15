@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - Luas dan Volume</title>
+    <link rel="stylesheet" href="style_4.css">
+</head>
+<body>
+    <header>
+        <h1>Calculator Luas dan Volume</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Tabung</h2>
+            <label for="radius-tabung">Radius (r):</label>
+            <input type="number" id="radius-tabung">
+            <label for="height-tabung">Tinggi (h):</label>
+            <input type="number" id="height-tabung">
+            <button onclick="calculateTabung()">Hitung</button>
+            <p id="result-tabung"></p>
+        </section>
+        <section>
+            <h2>Bola</h2>
+            <label for="radius-bola">Radius (r):</label>
+            <input type="number" id="radius-bola">
+            <button onclick="calculateBola()">Hitung</button>
+            <p id="result-bola"></p>
+        </section>
+        <section>
+            <h2>Limas Segi Empat</h2>
+            <label for="base-limas">Sisi Alas (s):</label>
+            <input type="number" id="base-limas">
+            <label for="height-limas">Tinggi (h):</label>
+            <input type="number" id="height-limas">
+            <button onclick="calculateLimas()">Hitung</button>
+            <p id="result-limas"></p>
+        </section>
+    </main>
+    <script src="main_4.js"></script>
+</body>
+</html>
